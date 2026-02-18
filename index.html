@@ -12,9 +12,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7724160019312058"
      crossorigin="anonymous"></script>
+     <script src="https://www.google.com/recaptcha/api.js"></script>
+     <script>
+   function onSubmit(token) {
+     document.getElementById("demo-form").submit();
+   }
+     </script>
+    <button class="g-recaptcha" 
+        data-sitekey="6LeNY3AsAAAAAMjqpwY4ngful9Cm2S9uNS9ng-gj" 
+        data-callback='onSubmit' 
+        data-action='submit'>Submit</button>
 </body>
 
 </html>
+
 
 
 
